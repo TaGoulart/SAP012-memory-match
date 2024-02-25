@@ -2,48 +2,78 @@
   "name": "Space",
   "items": [
     {
-      "id": "alien",
-      "image": "https://www.serebii.net/pokemongo/pokemon/001.png",
+      "id": "backcard",
+      "image": "images/backcard.png",
       "bgColor": "#339933"
     },
     {
-      "id": "ivysaur",
-      "image": "https://www.serebii.net/pokemongo/pokemon/002.png",
+      "id": "earth",
+      "image": "images/earth.png",
       "bgColor": "#339933"
     },
     {
-      "id": "venusaur",
-      "image": "https://www.serebii.net/pokemongo/pokemon/003.png",
+      "id": "jupiter",
+      "image": "images/jupiter.png",
       "bgColor": "#339933"
     },
     {
-      "id": "charmander",
-      "image": "https://www.serebii.net/pokemongo/pokemon/004.png",
+      "id": "mars",
+      "image": "images/mars.png",
       "bgColor": "#F05032"
     },
     {
-      "id": "charmeleon",
-      "image": "https://www.serebii.net/pokemongo/pokemon/005.png",
+      "id": "mercury",
+      "image": "images/mercury.png",
       "bgColor": "#F05032"
     },
     {
-      "id": "charizard",
-      "image": "https://www.serebii.net/pokemongo/pokemon/006.png",
+      "id": "moon",
+      "image": "images/moon.png",
       "bgColor": "#F05032"
     },
     {
-      "id": "squirtle",
-      "image": "https://www.serebii.net/pokemongo/pokemon/007.png",
+      "id": "neptune",
+      "image": "images/neptune.png",
       "bgColor": "#1572B6"
     },
     {
-      "id": "wartortle",
-      "image": "https://www.serebii.net/pokemongo/pokemon/008.png",
+      "id": "rocket",
+      "image": "images/rocket.png",
       "bgColor": "#1572B6"
     },
     {
-      "id": "blastoise",
-      "image": "https://www.serebii.net/pokemongo/pokemon/009.png",
+      "id": "satellite",
+      "image": "images/satellite.png",
+      "bgColor": "#1572B6"
+    },
+    {
+      "id": "saturn",
+      "image": "images/saturn.png",
+      "bgColor": "#1572B6"
+    },
+    {
+      "id": "sun",
+      "image": "images/sun.png",
+      "bgColor": "#1572B6"
+    },
+    {
+      "id": "ufo",
+      "image": "images/ufo.png",
+      "bgColor": "#1572B6"
+    },
+    {
+      "id": "uranus",
+      "image": "images/uranus.png",
+      "bgColor": "#1572B6"
+    },
+    {
+      "id": "venus",
+      "image": "images/venus.png",
+      "bgColor": "#1572B6"
+    },
+    {
+      "id": "astronaut",
+      "image": "images/astronaut.png",
       "bgColor": "#1572B6"
     }
   ]
