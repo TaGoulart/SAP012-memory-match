@@ -12,13 +12,10 @@ body {
     /*background: linear-gradient(90deg, #000, #0c002b);
     /* Fundo escuro */
     flex-direction: column;
-    /* Adicionado para alinhar o header acima do memory-game */
-
 }
 
 header {
     background: linear-gradient(90deg, #000, #0c002b);
-    /* Fundo escuro */
     text-align: center;
     padding: 20px;
 }
@@ -34,35 +31,35 @@ header {
     letter-spacing: 2px;
     /* Espaçamento entre as letras */
     margin-bottom: 10px;
-    /* Margem inferior para afastar do restante do conteúdo */
+    /
 }
 
 .memory-game {
-    width: 540px;
-    height: 540px;
+    width: 100%;
+    max-width: 720px;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid; /* Utilizando grid para facilitar a criação de uma grade */
+    grid-template-columns: repeat(6, 1fr); /* 6 colunas de tamanho igual */
+    gap: 10px; /* Espaço entre as cartas */
     perspective: 1000px;
 }
 
 .memory-card {
-    width: 200px;
-    height: 270px;
-    /*width: calc(25% - 0px);
-  height: calc(33.333% - 5px);*/
+    width: calc(100% - 10px);
+    /*width: 100%;*/
+    aspect-ratio: 2/3; /* Proporção de aspecto 2:3 para manter a forma das cartas */
     margin: 10px;
-    position: auto;
+    position: relative;
     transform: scale(1);
     transform-style: preserve-3d;
-    transition: transform .5s;
+    transition: transform 0.5s;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, .0);
     border-radius: 10px;
 }
 
 .memory-card:active {
     transform: scale(0.97);
-    transition: transform .2s;
+    transition: transform 0.2s;
 }
 
 .memory-card.flip {
@@ -73,14 +70,12 @@ header {
 .back-face {
     width: 100%;
     height: 100%;
-    padding: .5px;
+    padding: 1px; /* Ajustei o padding para garantir que não haja problemas de renderização com .5px */
     position: absolute;
-    border-radius: 5px;
+    border-radius: 10px; /* Ajustei o raio da borda para combinar com o raio da borda do .memory-card */
     background-color: rgb(239, 245, 245);
     backface-visibility: hidden;
-    /*hidden para esconder o backface*/
 }
-
 
 .front-face {
     transform: rotateY(180deg);
@@ -91,11 +86,17 @@ header {
     body {
       font-size: 14px;
     }
-  }
-  
-  /* Estilos para celulares */
-  @media (max-width: 480px) {
-    body {
-      font-size: 12px;
+
+    .memory-card {
+        width: calc(50% - 20px);
+        aspect-ratio: 2/3;
     }
-  }
+}
+
+/* Estilos para celulares */
+@media (max-width: 480px) {
+    .memory-card {
+        width: calc(16.666% - 20px);
+        aspect-ratio: 2/3;
+    }
+}
