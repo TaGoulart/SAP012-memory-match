@@ -4,19 +4,21 @@ const App = () => {
   const el = document.createElement('div');
   el.className = 'App';
 
+  //funç de embaralhamento de array fisher-yates
   const shuffleArray = (array) => {
     for (let i = array.length - 1; i > 0; i--) {
       const randomNumber = Math.floor(Math.random() * (i + 1));
       [array[i], array[randomNumber]] = [array[randomNumber], array[i]];
     }
   };
-
+  
+  //variáveis de estado
   let selectedCards = [];
-  let isWaiting = false;
+  let isWaiting = false; //iswaiting variável é uma flag booleana (estado de espera), aguarda uma resposta do usuario antes de prosseguir ou indicar um processo está em andamento
 
   const createCardElements = () => {
     const memoryGameSection = document.createElement('section');
-    memoryGameSection.className = 'memory-game';
+    memoryGameSection.className = 'memory-game'; //atribuído a classe CSS "memory-game"
 
     // Filtrar o array para remover a carta 'backcard'
     const filteredSpaceData = SpaceData.items.filter(item => item.id !== 'backcard');
@@ -61,12 +63,12 @@ const App = () => {
 
     const card = event.currentTarget;
 
-    if (selectedCards.includes(card)) return;
+    if (selectedCards.includes(card)) return; //obtenção da carta atual que foi clicada (event.currentTarget)
 
     selectedCards.push(card);
     card.classList.toggle('flip');
 
-    if (selectedCards.length === 2) {
+    if (selectedCards.length === 2) { //verifica se o comprimento(nº de elementos do array selectedCards) é igual ou superior a 2, indica que o gamer virou duas cartas.
       isWaiting = true;
 
       setTimeout(() => {
