@@ -4,7 +4,7 @@ const App = () => {
   const el = document.createElement('div');
   el.className = 'App';
 
-  //funç de embaralhamento de array fisher-yates
+  //função de embaralhamento de array Fisher-Yates
   const shuffleArray = (array) => {
     for (let i = array.length - 1; i > 0; i--) {
       const randomNumber = Math.floor(Math.random() * (i + 1));
@@ -14,7 +14,8 @@ const App = () => {
   
   //variáveis de estado
   let selectedCards = [];
-  let isWaiting = false; //iswaiting variável é uma flag booleana (estado de espera), aguarda uma resposta do usuario antes de prosseguir ou indicar um processo está em andamento
+  let isWaiting = false; //isWaiting é uma flag booleana (estado de espera), aguarda uma resposta do usuário antes de prosseguir ou indica um processo em andamento
+  let pairsFound = 0; // Adicionando a declaração da variável pairsFound
 
   const createCardElements = () => {
     const memoryGameSection = document.createElement('section');
@@ -68,7 +69,7 @@ const App = () => {
     selectedCards.push(card);
     card.classList.toggle('flip');
 
-    if (selectedCards.length === 2) { //verifica se o comprimento(nº de elementos do array selectedCards) é igual ou superior a 2, indica que o gamer virou duas cartas.
+    if (selectedCards.length === 2) { //verifica se o comprimento(nº de elementos do array selectedCards) é igual ou superior a 2, indica que o jogador virou duas cartas.
       isWaiting = true;
 
       setTimeout(() => {
@@ -78,6 +79,12 @@ const App = () => {
           // Verifica se os alts das imagens são iguais
           firstCard.classList.add('matched');
           secondCard.classList.add('matched');
+          pairsFound++;
+
+          if (pairsFound === SpaceData.items.length / 2) {
+            // Verifica se todos os pares foram encontrados
+            showWinMessage();
+          }
         } else {
           firstCard.classList.toggle('flip');
           secondCard.classList.toggle('flip');
@@ -87,6 +94,16 @@ const App = () => {
         isWaiting = false;
       }, 1000);
     }
+  };
+
+  const showWinMessage = () => {
+    const winMessage = document.createElement('div');
+    winMessage.className = 'win-message';
+    winMessage.textContent = 'Parabéns! Você encontrou todos os pares!';
+    el.appendChild(winMessage);
+
+    winMessage.classList.add('show');
+
   };
 
   createCardElements();
