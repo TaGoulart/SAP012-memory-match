@@ -152,10 +152,13 @@ Pesquisa:
 
 ## 5. Programas e ferramentas utilizados
 
-Github
-Virtual Studio Code
-Figma
-Onenote
+- Github
+  
+- Virtual Studio Code
+  
+- Figma
+  
+- Onenote
 
 ## 6. Considerações técnicas
 
