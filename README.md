@@ -84,37 +84,37 @@ Educadores/Pais:
 
 ## 4. Objetivos de aprendizagem
 
-HTML
-Uso de HTML semântico
+HTML:
+- Uso de HTML semântico
 
-CSS
-Uso de seletores de CSS
+CSS:
+- Uso de seletores de CSS
 
-Modelo de caixa (box model): borda, margem, preenchimento
+- Modelo de caixa (box model): borda, margem, preenchimento
 
-Uso de flexbox em CSS
+- Uso de flexbox em CSS
 
-Web APIs
-Uso de seletores de DOM
+Web APIs:
+- Uso de seletores de DOM
 
-Manipulação de eventos de DOM (listeners, propagação, delegação)
+- Manipulação de eventos de DOM (listeners, propagação, delegação)
 
-Manipulação dinâmica de DOM
+- Manipulação dinâmica de DOM
 
-JavaScript
-Diferenciar entre tipos de dados primitivos e não primitivos
+JavaScript:
+- Diferenciar entre tipos de dados primitivos e não primitivos
 
-Arrays (arranjos)
+- Arrays (arranjos)
 
-Objetos (key, value)
+- Objetos (key, value)
 
-Variáveis (declaração, atribuição, escopo)
+- Variáveis (declaração, atribuição, escopo)
 
-Uso de condicionais (if-else, switch, operador ternário, lógica booleana)
+- Uso de condicionais (if-else, switch, operador ternário, lógica booleana)
 
-Uso de laços (while, for, for..of)
+- Uso de laços (while, for, for..of)
 
-Funções (params, args, return)
+- Funções (params, args, return)
 
 Testes unitários (unit tests)
 
@@ -126,29 +126,29 @@ Uso de identificadores descritivos (Nomenclatura e Semântica)
 
 Diferença entre expressões (expressions) e declarações (statements)
 
-Controle de Versões (Git e GitHub)
-Git: Instalação e configuração
+Controle de Versões (Git e GitHub):
+- Git: Instalação e configuração
 
-Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)
+- Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)
 
-Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)
+- Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)
 
-GitHub: Criação de contas e repositórios, configuração de chave SSH
+- GitHub: Criação de contas e repositórios, configuração de chave SSH
 
-GitHub: Implantação com GitHub Pages
+- GitHub: Implantação com GitHub Pages
 
-GitHub: Colaboração pelo Github (branches | forks | pull requests | code review | tags)
+- GitHub: Colaboração pelo Github (branches | forks | pull requests | code review | tags)
 
-Centrado no usuário
-Desenhar e desenvolver um produto ou serviço colocando as usuárias no centro
+Centrado no usuário:
+- Desenhar e desenvolver um produto ou serviço colocando as usuárias no centro
 
-Design de produto
-Criar protótipos para obter feedback e iterar
+Design de produto:
+- Criar protótipos para obter feedback e iterar
 
-Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
+- Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
 
-Pesquisa
-Planejar e executar testes de usabilidade
+Pesquisa:
+- Planejar e executar testes de usabilidade
 
 ## 5. Considerações técnicas
 
