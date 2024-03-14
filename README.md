@@ -22,8 +22,6 @@ entre outros, é um jogo de cartas em que todas as cartas são postas viradas
 pra baixo sobre a superficie, virando duas cartas em cada turno. O
 objetivo do jogo é encontrar pares de cartas iguais.
 
-![Concentration (card game)](https://user-images.githubusercontent.com/110297/135919005-66aefadb-c462-49e2-bf10-2374f2e47688.png)
-
 ## 2. Resumo do projeto
 
 Este projeto foi desenvolvido durante o bootcamp da Laboratoria. Nele, foi implementado um jogo da memória. 
@@ -31,22 +29,27 @@ Este projeto foi desenvolvido durante o bootcamp da Laboratoria. Nele, foi imple
 ## 3. História do Usuário
 
 Quem são os principais usuários do produto:
-	• Crianças em idade escolar, geralmente até 6 anos.
-	• Educadores e pais que desejam proporcionar uma experiência educativa e divertida sobre o espaço.
-  • Aprimorar suas habilidades em português e inglês ao associar cartas com palavras em ambos os idiomas.
+
+Crianças em idade escolar, geralmente até 6 anos.
+Educadores e pais que desejam proporcionar uma experiência educativa e divertida sobre o espaço.
+Aprimorar suas habilidades em português e inglês ao associar cartas com palavras em ambos os idiomas.
 
 Quais são os objetivos destes usuários em relação com o produto:
 Crianças:
-	· Desenvolver habilidades de memória.
-	· Aprender fatos interessantes sobre o espaço, planetas e astronautas.
-	· Divertir-se enquanto participam de uma atividade educativa.
+
+Desenvolver habilidades de memória.
+Aprender fatos interessantes sobre o espaço, planetas e astronautas.
+Divertir-se enquanto participam de uma atividade educativa.
+
 Educadores/Pais:
-	· Proporcionar uma ferramenta educativa e envolvente para o aprendizado.
-	· Estimular o interesse das crianças pelo espaço e pela ciência.
-	· Apoiar o aprendizado de línguas estrangeiras.
+
+Proporcionar uma ferramenta educativa e envolvente para o aprendizado.
+Estimular o interesse das crianças pelo espaço e pela ciência.
+Apoiar o aprendizado de línguas estrangeiras.
 
 Quais são os principais componentes da interface e por que:
-	· Cartas Personalizadas: Ilustrações coloridas de planetas, astronautas, naves espaciais e cometas com legendas em português e inglês.
+
+Cartas Personalizadas: Ilustrações coloridas de planetas, astronautas, naves espaciais e cometas com legendas em português e inglês.
 
 Quando utilizam ou utilizariam o produto:
 Crianças:
