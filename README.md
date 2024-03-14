@@ -24,6 +24,9 @@ objetivo do jogo é encontrar pares de cartas iguais.
 
 Este projeto foi desenvolvido durante o bootcamp da Laboratoria. Nele, foi implementado um jogo da memória. 
 
+![Concentration (card game)](https://user-images.githubusercontent.com/110297/135919005-66aefadb-c462-49e2-bf10-2374f2e47688.png)
+
+
 ## 3. História do Usuário
 
 Quem são os principais usuários do produto:
