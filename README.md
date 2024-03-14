@@ -6,9 +6,7 @@
 - [2. Resumo do projeto](#2-resumo-do-projeto)
 - [3. História do Usuário](#3-historia-do-usuario)
 - [4. Objetivos de aprendizagem](#4-objetivos-de-aprendizagem)
-- [5. Critérios de aceitação mínimos do projeto](#5-critérios-de-aceitação-mínimos-do-projeto)
-- [6. Hacker edition](#6-hacker-edition)
-- [7. Considerações técnicas](#7-considerações-técnicas)
+- [5. Considerações técnicas](#7-considerações-técnicas)
 - [8. Pistas, tips e leituras complementares](#8-pistas-tips-e-leituras-complementares)
 - [9. Checklist](#9-checklist)
 
@@ -144,16 +142,6 @@ Assim que desenhar sua interface de usuário, deve trabalhar em sua implantaçã
 **Não** é necessário que construa a interface exatamente como foi desenhado.
 O tempo de hacking é escasso, assim deverá priorizar
 
-Como mínimo, sua implantação deve:
-
-1. Dado um set de cartas, embaralhar as cartas e mostrá-las na interface.
-2. Permitir al usuário _virar_ as cartas de 2 em 2.
-3. Os pares encontrados devem permanecer viradas para cima.
-4. Indicar ao usuário que ganhou quando conseguir virar todas as cartas.
-5. Ser _responsiva_, ou seja, deve ser visualizada sem problemas a partir de
-   diversos tamanhos de tela: celulares, tablets e desktops.
-6. Que a interface siga os fundamentos de _visual design_.
-
 ### Testes unitários
 
 O _boilerplate_ deste projeto inclui
@@ -165,39 +153,19 @@ Seus _testes unitários_ devem ter uma cobertura de 70% de _statements_
 (_sentencias_), _functions_ (_funciones_), _lines_ (_líneas_), e _branches_
 (_ramas_) de seus componentes.
 
-## 6. Hacker edition
+## 5. Considerações técnicas
 
-As seções chamadas _Hacker Edition_ são **opcionais**. Se já tiver terminado
-todos os requisitos anteriores e tiver tempo, pode tentar completá-las. Dessa
-forma, você pode aprofundar e/ou exercitar mais os objetivos de aprendizagem
-deste projeto.
+A lógica do projeto foi implementada completamente em JavaScript,
+HTML e CSS. 
 
-Features/características extra sugeridas:
+Para iniciar um novo jogo, sempre temos que embaralhar as cartas antes de 
+exibi-las na tela. Para isso, foi explorado algoritmos existentes para esse propósito,
+como o renomado algoritmo de Fisher-Yates (também conhecido como algoritmo de Knuth).
 
-- Ao invés de consumir os dados estáticos fornecidos neste repositório, pode
-  consumir os dados de forma dinâmica, carregando um arquivo JSON por meio de
-  `fetch`. A pasta `src/data` contém uma versão `.js` e uma `.json` de
-  de cada conjunto de dados.
-- Adicionar novos conjuntos de cartas.
-- Calcular a pontuação baseado na quantidade de turnos.
-- Adicionar timer e ter conta em pontuação.
-- 100% Coverage
-
-## 7. Considerações técnicas
-
-A lógica do projeto deve ser implementada completamente em JavaScript,
-HTML e CSS. Neste projeto NÃO é permitido usar bibliotecas ou frameworks, apenas
-[vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
-
-Para iniciar um novo jogo, sempre teremos que _embaralhar_ as cartas antes de
-printá-las na tela. Para isso, te convidamos a explorar algoritmos
-existentes para este tipo de operação (chamada _shuffle_ em inglês), como por
-exemplo o [_algoritmo de Fisher-Yates (aka Knuth)_](https://es.wikipedia.org/wiki/Algoritmo_de_Fisher-Yates).
-
-Neste projeto não se espera que _invente_ ou implemente seu próprio algoritmo
-para embaralhar as cartas. Considere as opções existentes,
-escolha uma e a adapte para seu projeto (agregando uma função `shuffle`
-que possa ser usada em sua aplicação).
+Neste projeto, não foi reinventado foi utilizado o algoritmo de Fisher-Yates
+para criar uma função shuffle que embaralha as cartas de forma eficiente.
+Essa função está integrada à aplicação e é utilizada sempre que um novo jogo é
+iniciado, garantindo uma experiência dinâmica e desafiadora para os jogadores.
 
 O _boilerplate_ contém uma estrutura de arquivos como ponto de partida, assim
 como toda a configuração de dependências:
@@ -269,25 +237,6 @@ com la extensão `.js` e outro `.json`. Ambos arquivos contém o mesmos dados;
 a diferença é que o `.js` usaremos através de um `import`, enquanto que
 o `.json` está aqui para opcionalmente carregar os dados de forma assíncrona com
 [`fetch()`](https://developer.mozilla.org/pt/docs/Web/API/Fetch_API).
-
-Quando estiver pronta para codar, te sugerimos começar desta maneira:
-
-1. Uma das integrantes da equipe deve realizar um
-[fork](https://help.github.com/articles/fork-a-repo/) do repositório de sua
-   turma (a equipe de formação fornecerá o link). A outra integrante da dupla
-   deve fazer um fork **a partir do repositório de sua companheira** e
-   [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) um `remote`
-   a partir dele.
-2. [Clona](https://help.github.com/articles/cloning-a-repository/)
-   seu _fork_ a seu computadora (copia local).
-3. Instale as dependências do projeto com o comando `npm install`, assumindo que
-   já tenha instalado o [Node.js](https://nodejs.org/) (que inclui
-   [npm](https://docs.npmjs.com/)).
-4. Se tudo correr bem, deve ser capaz de executar os :traffic_light: testes
-   unitários (unit tests) com o comando `npm test`.
-5. Para ver a interface de seu programa no navegador, utilize o comando `npm start`
-   para subir o servidor web no endereço `http://localhost:5000`.
-6. Comece a codar! :rocket:
 
 ### Conteúdo de referência
 
