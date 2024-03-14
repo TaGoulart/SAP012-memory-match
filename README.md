@@ -31,25 +31,28 @@ Este projeto foi desenvolvido durante o bootcamp da Laboratoria. Nele, foi imple
 
 Quem são os principais usuários do produto:
 
--Crianças em idade escolar, geralmente até 6 anos.
+- Crianças em idade escolar, geralmente até 6 anos.
 
--Educadores e pais que desejam proporcionar uma experiência educativa e divertida sobre o espaço.
+- Educadores e pais que desejam proporcionar uma experiência educativa e divertida sobre o espaço.
 Aprimorar suas habilidades em português e inglês ao associar cartas com palavras em ambos os idiomas.
 
 Quais são os objetivos destes usuários em relação com o produto:
+
 Crianças:
 
--Desenvolver habilidades de memória.
+- Desenvolver habilidades de memória.
 
--Aprender fatos interessantes sobre o espaço, planetas e astronautas.
+- Aprender fatos interessantes sobre o espaço, planetas e astronautas.
 
--Divertir-se enquanto participam de uma atividade educativa.
+- Divertir-se enquanto participam de uma atividade educativa.
 
 Educadores/Pais:
 
-Proporcionar uma ferramenta educativa e envolvente para o aprendizado.
-Estimular o interesse das crianças pelo espaço e pela ciência.
-Apoiar o aprendizado de línguas estrangeiras.
+- Proporcionar uma ferramenta educativa e envolvente para o aprendizado.
+  
+- Estimular o interesse das crianças pelo espaço e pela ciência.
+  
+- Apoiar o aprendizado de línguas estrangeiras.
 
 Quais são os principais componentes da interface e por que:
 
