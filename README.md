@@ -4,7 +4,7 @@
 
 - [1. Preâmbulo](#1-preâmbulo)
 - [2. Resumo do projeto](#2-resumo-do-projeto)
-- [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
+- [3. História do Usuário](#3-historia-do-usuario)
 - [4. Considerações gerais](#4-considerações-gerais)
 - [5. Critérios de aceitação mínimos do projeto](#5-critérios-de-aceitação-mínimos-do-projeto)
 - [6. Hacker edition](#6-hacker-edition)
@@ -24,22 +24,44 @@ objetivo do jogo é encontrar pares de cartas iguais.
 
 ![Concentration (card game)](https://user-images.githubusercontent.com/110297/135919005-66aefadb-c462-49e2-bf10-2374f2e47688.png)
 
-Exemplos:
-
-- [Santa Tracker de Google](https://santatracker.google.com/matching.html)
-- [Match The Memory](https://matchthememory.com/play)
-
 ## 2. Resumo do projeto
 
-Neste projeto será construído uma versão _web_ do jogo _Memory Match_, em
-que uma jogadora possa jogar sozinha no navegador.
+Este projeto foi desenvolvido durante o bootcamp da Laboratoria. Nele, foi implementado um jogo da memória. 
 
-O objetivo principal deste projeto é aprender a desenhar e construir uma
-interface web baseada em data e interação com a usuária.
+## 3. História do Usuário
 
-## 3. Objetivos de aprendizagem
+Quem são os principais usuários do produto:
+	• Crianças em idade escolar, geralmente até 6 anos.
+	• Educadores e pais que desejam proporcionar uma experiência educativa e divertida sobre o espaço.
+  • Aprimorar suas habilidades em português e inglês ao associar cartas com palavras em ambos os idiomas.
 
-Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projeto. Pense nisso para decidir sua estratégia de trabalho.
+Quais são os objetivos destes usuários em relação com o produto:
+Crianças:
+	· Desenvolver habilidades de memória.
+	· Aprender fatos interessantes sobre o espaço, planetas e astronautas.
+	· Divertir-se enquanto participam de uma atividade educativa.
+Educadores/Pais:
+	· Proporcionar uma ferramenta educativa e envolvente para o aprendizado.
+	· Estimular o interesse das crianças pelo espaço e pela ciência.
+	· Apoiar o aprendizado de línguas estrangeiras.
+
+Quais são os principais componentes da interface e por que:
+	· Cartas Personalizadas: Ilustrações coloridas de planetas, astronautas, naves espaciais e cometas com legendas em português e inglês.
+
+Quando utilizam ou utilizariam o produto:
+Crianças:
+	· Durante o tempo livre em casa.
+	· Como uma atividade educativa durante a escola ou férias.
+	· Em grupos, para promover interação social e prática de idiomas.
+Educadores/Pais:
+	· Como uma ferramenta educativa em sala de aula ou em casa.
+	· Como uma opção de entretenimento educativo para crianças.
+	· Para auxiliar no ensino e prática de português e inglês.
+
+Exemplos de Histórias de Usuário:
+· Como jogador, quero associar a palavra "Mars" com a carta correspondente para praticar meu vocabulário em inglês enquanto jogo.
+· Como pai, quero que meu filho pratique e aprenda português ao mesmo tempo em que se diverte no jogo.
+· Como educador, quero incluir o jogo como parte das atividades bilíngues da minha aula, para promover o aprendizado de idiomas de forma lúdica.
 
 ### HTML
 
