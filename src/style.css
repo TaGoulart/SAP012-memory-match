@@ -113,3 +113,13 @@ header {
         aspect-ratio: 2/3;
     }
 }
+
+footer {
+    text-align: center; /* Centraliza o conteúdo */
+    color: #fff; /* Cor do texto do rodapé */
+    padding: .5px 0; /* Espaçamento interno do rodapé */
+    position: fixed; /* Mantém o rodapé no rodapé da página */
+    bottom: 0; /* Alinha o rodapé na parte inferior da página */
+    width: 100%; /* Largura total do rodapé */
+    font-size: 10px
+}
