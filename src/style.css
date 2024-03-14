@@ -9,8 +9,8 @@ body {
     display: flex;
     font-size: 16px;
     background: linear-gradient(90deg, #000, #0c002b);
-    /*background: linear-gradient(90deg, #000, #0c002b);
-    /* Fundo escuro */
+    color: #fff;
+    font-family: 'Arial', sans-serif;
     flex-direction: column;
 }
 
@@ -23,31 +23,25 @@ header {
 .game-title {
     color: white;
     font-family: 'Arial', sans-serif;
-    /* Altere para uma fonte que você prefira, talvez algo mais futurístico ou espacial */
     font-size: 36px;
-    /* Tamanho da fonte */
     text-shadow: 2px 2px 4px rgba(179, 150, 166, 0.9);
-    /* Adiciona uma sombra ao texto para efeito espacial */
     letter-spacing: 2px;
-    /* Espaçamento entre as letras */
     margin-bottom: 10px;
-    /
 }
 
 .memory-game {
     width: 100%;
     max-width: 720px;
     margin: auto;
-    display: grid; /* Utilizando grid para facilitar a criação de uma grade */
-    grid-template-columns: repeat(6, 1fr); /* 6 colunas de tamanho igual */
-    gap: 10px; /* Espaço entre as cartas */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
     perspective: 1000px;
 }
 
 .memory-card {
     width: calc(100% - 10px);
-    /*width: 100%;*/
-    aspect-ratio: 2/3; /* Proporção de aspecto 2:3 para manter a forma das cartas */
+    aspect-ratio: 2/3;
     margin: 10px;
     position: relative;
     transform: scale(1);
@@ -63,22 +57,41 @@ header {
 }
 
 .memory-card.flip {
-    transform: rotateY(180deg); /*rotate foi utlizado p/ a carta rodar*/
+    transform: rotateY(180deg);
 }
 
 .front-face,
 .back-face {
     width: 100%;
     height: 100%;
-    padding: 1px; /* Ajustei o padding para garantir que não haja problemas de renderização com .5px */
+    padding: 1px;
     position: absolute;
-    border-radius: 10px; /* Ajustei o raio da borda para combinar com o raio da borda do .memory-card */
+    border-radius: 10px;
     background-color: rgb(239, 245, 245);
     backface-visibility: hidden;
 }
 
 .front-face {
     transform: rotateY(180deg);
+}
+
+.win-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #000000;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.win-message.show {
+    opacity: 1;
 }
 
 /* Estilos para tablets em orientação retrato ou pequenos desktops */
