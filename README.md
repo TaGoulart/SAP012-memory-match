@@ -56,7 +56,7 @@ Educadores/Pais:
 
 Quais são os principais componentes da interface e por que:
 
-Cartas Personalizadas: Ilustrações coloridas de planetas, astronautas, naves espaciais e cometas com legendas em português e inglês.
+- Cartas Personalizadas: Ilustrações coloridas de planetas, astronautas, naves espaciais e cometas com legendas em português e inglês.
 
 Quando utilizam ou utilizariam o produto:
 Crianças:
