@@ -6,9 +6,9 @@
 - [2. Resumo do projeto](#2-resumo-do-projeto)
 - [3. História do Usuário](#3-historia-do-usuario)
 - [4. Objetivos de aprendizagem](#4-objetivos-de-aprendizagem)
-- [5. Considerações técnicas](#7-considerações-técnicas)
-- [8. Pistas, tips e leituras complementares](#8-pistas-tips-e-leituras-complementares)
-- [9. Checklist](#9-checklist)
+- [5. Programas e ferramentas utilizados](#5-programas-e-ferramentas-utilizados)
+- [6. Considerações técnicas](#6-considerações-técnicas)
+- [7. Checklist](#7-checklist)
 
 ---
 
@@ -150,7 +150,14 @@ Design de produto:
 Pesquisa:
 - Planejar e executar testes de usabilidade
 
-## 5. Considerações técnicas
+## 5. Programas e ferramentas utilizados
+
+Github
+Virtual Studio Code
+Figma
+Onenote
+
+## 6. Considerações técnicas
 
 A lógica do projeto foi implementada completamente em JavaScript,
 HTML e CSS. 
@@ -278,7 +285,7 @@ o `.json` está aqui para opcionalmente carregar os dados de forma assíncrona c
 - [Critérios de aceitação](https://medium.com/@karladiasn/user-stories-e-crit%C3%A9rios-de-aceita%C3%A7%C3%A3o-317c48403fcd)
 - [Guia](https://docs.google.com/presentation/d/1bOq8ns5wsvXdksdqYL3aQoxzFQsXTVlyvlV-yxI2oBM/present?token=AC4w5VhHBbEEA9u2w8bm3Ey1Cse349frbg%3A1567540902700&includes_info_params=1&eisi=CM_ytPW4teQCFQrJgQodeTcEZg#slide=id.g5282e1a53f_1_106)
 
-## 9. Checklist
+## 7. Checklist
 
 - [x] Usar VanillaJS.
 - [x] Passa pelo linter (`npm run pretest`)
