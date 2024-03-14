@@ -129,30 +129,6 @@ Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
 Pesquisa
 Planejar e executar testes de usabilidade
 
-#### Testes de usabilidade
-
-Durante o desafio deverá fazer _tests_ de usabilidade com distintos usuários, e
-com base nos resultados, deverá iterar seus desenhos. Conte quais problemas de
-usabilidade foram encontradas através dos _tests_ e como elas foram
-melhoradas na sua proposta final.
-
-### Implantação de la Interface de Usuário (HTML/CSS/JS)
-
-Assim que desenhar sua interface de usuário, deve trabalhar em sua implantação.
-**Não** é necessário que construa a interface exatamente como foi desenhado.
-O tempo de hacking é escasso, assim deverá priorizar
-
-### Testes unitários
-
-O _boilerplate_ deste projeto inclui
-[testes unitários (_unit tests_) de um componente como exemplo](./src/components/App.spec.js).
-A medida que vai agregando componentes, terá que ir agregando os testes para
-manter uma boa _cobertura_.
-
-Seus _testes unitários_ devem ter uma cobertura de 70% de _statements_
-(_sentencias_), _functions_ (_funciones_), _lines_ (_líneas_), e _branches_
-(_ramas_) de seus componentes.
-
 ## 5. Considerações técnicas
 
 A lógica do projeto foi implementada completamente em JavaScript,
