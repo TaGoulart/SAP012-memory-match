@@ -31,8 +31,8 @@ Este projeto foi desenvolvido durante o bootcamp da Laboratoria. Nele, foi imple
 
 Quem são os principais usuários do produto:
 
-Crianças em idade escolar, geralmente até 6 anos.
-Educadores e pais que desejam proporcionar uma experiência educativa e divertida sobre o espaço.
+-Crianças em idade escolar, geralmente até 6 anos.
+-Educadores e pais que desejam proporcionar uma experiência educativa e divertida sobre o espaço.
 Aprimorar suas habilidades em português e inglês ao associar cartas com palavras em ambos os idiomas.
 
 Quais são os objetivos destes usuários em relação com o produto:
