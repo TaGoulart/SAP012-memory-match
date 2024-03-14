@@ -53,18 +53,19 @@ Cartas Personalizadas: Ilustrações coloridas de planetas, astronautas, naves e
 
 Quando utilizam ou utilizariam o produto:
 Crianças:
-	· Durante o tempo livre em casa.
-	· Como uma atividade educativa durante a escola ou férias.
-	· Em grupos, para promover interação social e prática de idiomas.
+Durante o tempo livre em casa.
+Como uma atividade educativa durante a escola ou férias.
+Em grupos, para promover interação social e prática de idiomas.
+
 Educadores/Pais:
-	· Como uma ferramenta educativa em sala de aula ou em casa.
-	· Como uma opção de entretenimento educativo para crianças.
-	· Para auxiliar no ensino e prática de português e inglês.
+Como uma ferramenta educativa em sala de aula ou em casa.
+Como uma opção de entretenimento educativo para crianças.
+Para auxiliar no ensino e prática de português e inglês.
 
 Exemplos de Histórias de Usuário:
-· Como jogador, quero associar a palavra "Mars" com a carta correspondente para praticar meu vocabulário em inglês enquanto jogo.
-· Como pai, quero que meu filho pratique e aprenda português ao mesmo tempo em que se diverte no jogo.
-· Como educador, quero incluir o jogo como parte das atividades bilíngues da minha aula, para promover o aprendizado de idiomas de forma lúdica.
+Como jogador, quero associar a palavra "Mars" com a carta correspondente para praticar meu vocabulário em inglês enquanto jogo.
+Como pai, quero que meu filho pratique e aprenda português ao mesmo tempo em que se diverte no jogo.
+Como educador, quero incluir o jogo como parte das atividades bilíngues da minha aula, para promover o aprendizado de idiomas de forma lúdica.
 
 ### HTML
 
