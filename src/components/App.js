@@ -66,14 +66,14 @@ const App = () => {
 
     if (selectedCards.includes(card)) return; //obtenção da carta atual que foi clicada (event.currentTarget)
 
-    selectedCards.push(card);
-    card.classList.toggle('flip');
+    selectedCards.push(card); //add o cartão atual à lista de cartões selecionados
+    card.classList.toggle('flip'); //add ou remov. a classe flip do cartão, invertendo o estado virado ou não
 
     if (selectedCards.length === 2) { //verifica se o comprimento(nº de elementos do array selectedCards) é igual ou superior a 2, indica que o jogador virou duas cartas.
       isWaiting = true;
 
       setTimeout(() => {
-        const [firstCard, secondCard] = selectedCards;
+        const [firstCard, secondCard] = selectedCards; //desestrutura a lista de cartões selecionados em duas variaveis para que passem pela condição de imgs iguais ou não
 
         if (firstCard.children[0].alt === secondCard.children[0].alt) {
           // Verifica se os alts das imagens são iguais
