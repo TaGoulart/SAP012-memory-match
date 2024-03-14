@@ -24,7 +24,7 @@ objetivo do jogo é encontrar pares de cartas iguais.
 
 Este projeto foi desenvolvido durante o bootcamp da Laboratoria. Nele, foi implementado um jogo da memória. 
 
-![Concentration (interface)](https://raw.githubusercontent.com/TaGoulart/SAP012-memory-match/main/print1.png)
+![Concentration (interface)](https://raw.githubusercontent.com/TaGoulart/SAP012-memory-match/main/gif%20game.gif)
 
 
 ## 3. História do Usuário
