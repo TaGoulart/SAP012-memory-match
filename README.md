@@ -259,21 +259,21 @@ o `.json` está aqui para opcionalmente carregar os dados de forma assíncrona c
 
 ## 9. Checklist
 
-- [ ] Usar VanillaJS.
-- [ ] Passa pelo linter (`npm run pretest`)
-- [ ] Passa pelos testes (`npm test`)
-- [ ] Testes unitários cobrem um mínimo de 70% de statements, functions, lines e
+- [x] Usar VanillaJS.
+- [x] Passa pelo linter (`npm run pretest`)
+- [x] Passa pelos testes (`npm test`)
+- [x] Testes unitários cobrem um mínimo de 70% de statements, functions, lines e
   branches.
-- [ ] Inclui uma _definição de produto_ clara e informativa no `README.md`.
-- [ ] Inclui histórias de usuário no `README.md`.
-- [ ] Inclui rascunho da solução (protótipo de baixa fidelidade) no `README.md`.
-- [ ] Inclui _Desenho da Interface de Usuário_ (protótipo de alta fidelidade)
+- [x] Inclui uma _definição de produto_ clara e informativa no `README.md`.
+- [x] Inclui histórias de usuário no `README.md`.
+- [x] Inclui rascunho da solução (protótipo de baixa fidelidade) no `README.md`.
+- [x] Inclui _Desenho da Interface de Usuário_ (protótipo de alta fidelidade)
       no `README.md`.
-- [ ] Inclui uma lista de problemas detectados nos testes de usabilidade no
+- [x] Inclui uma lista de problemas detectados nos testes de usabilidade no
   `README.md`.
-- [ ] UI: Mostra cartas _embaralhadas_ corretamente.
-- [ ] UI: Permite o usuário _virar_ as cartas de 2 em 2.
-- [ ] UI: Deixa os pares que foram formados virados.
-- [ ] UI: Informar o usuário que ganhou quando for relevante.
-- [ ] UI: É _responsivo_.
-- [ ] UI: A interface segue os fundamentos de _visual design_.
+- [x] UI: Mostra cartas _embaralhadas_ corretamente.
+- [x] UI: Permite o usuário _virar_ as cartas de 2 em 2.
+- [x] UI: Deixa os pares que foram formados virados.
+- [x] UI: Informar o usuário que ganhou quando for relevante.
+- [x] UI: É _responsivo_.
+- [x] UI: A interface segue os fundamentos de _visual design_.
