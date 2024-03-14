@@ -264,44 +264,6 @@ Como educador, quero incluir o jogo como parte das atividades bilíngues da minh
 
 - [ ] **Planejar e executar testes de usabilidade**
 
-## 4. Considerações gerais
-
-- Este projeto deverá ser feito em duplas.
-- O intervalo de tempo estimado para concluir o projeto é de 3 a 4 Sprints.
-- O projeto será entregue subindo seu código no GitHub (commit/push) e a
-  interface será publicada usando [GitHub Pages](https://pages.github.com/).
-
-## 5. Critérios de aceitação mínimos do projeto
-
-Os critérios para considerar que completou este projeto são:
-
-### Definição do produto
-
-Documenta brevemente seu trabalho no arquivo `README.md` do seu repositório,
-contando como foi seu processo de desenho e como acredita que o produto resolve
-o problema (ou problemas) que seu usuário tem.
-
-### Histórias de usuário
-
-Uma vez que entenda as necessidades de seus usuários, escreva as [Histórias
-de Usuário](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_de_usu%C3%A1rio) que represente
-tudo que o usuário necessite fazer/ver. As **Histórias de Usuário** devem
-ser o resultado do seu processo de investigação ou _research_ de seus usuários.
-
-Certifique-se de incluir a definição de pronto (_definition of done_) e os
-Critérios de Aceitação para cada uma.
-
-Na medida do possível, termine uma história de usuário antes de passar
-para a próxima (Cumpra com a Definição de pronto + Critérios de Aceitação).
-
-### Desenho da Interface de Usuário
-
-#### Protótipo de baixa fidelidade
-
-Durante seu trabalho deve fazer e iterar esboços (_sketches_) de sua
-solução usando papel e lápis. Te recomendamos tomar fotos de todas as
-iterações que fizer, coloque em seu repositório e as menciones em seu
-`README.md`.
 
 #### Protótipo de alta fidelidade
 
@@ -454,28 +416,6 @@ com la extensão `.js` e outro `.json`. Ambos arquivos contém o mesmos dados;
 a diferença é que o `.js` usaremos através de um `import`, enquanto que
 o `.json` está aqui para opcionalmente carregar os dados de forma assíncrona com
 [`fetch()`](https://developer.mozilla.org/pt/docs/Web/API/Fetch_API).
-
-## 8. Pistas, tips e leituras complementares
-
-Participe do canal do Slack
-[#project-memory-match](https://claseslaboratoria.slack.com/archives/C03NZDFB324)
-para conversar e pedir ajuda no projeto.
-
-### Primeiros passos
-
-Antes de começar a escrever código, deve definir o que seu produto faz
-com base no conhecimento que conseguir obter de seu usuário. Estas perguntas
-podem te ajudar:
-
-- Quem são os principais usuários do produto?
-- Quais são os objetivos destes usuários em relação com o produto?
-- Quais são os principais componentes da interface e por que?
-- Quando utilizam ou utilizariam o produto?
-- Toda seu investigação prévia deve ter como resultado todas as Histórias
-  de Usuário de seu projeto.
-- Não faça os protótipos de alta fidelidade de todas suas Histórias. Comece
-  apenas pelos que necessitem para sua Sprint 1 (semana 1 de trabalho). Há mais
-  dicas na guia de organização desse projeto.
 
 Quando estiver pronta para codar, te sugerimos começar desta maneira:
 
