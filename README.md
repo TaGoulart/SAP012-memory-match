@@ -60,14 +60,20 @@ Cartas Personalizadas: Ilustrações coloridas de planetas, astronautas, naves e
 
 Quando utilizam ou utilizariam o produto:
 Crianças:
-Durante o tempo livre em casa.
-Como uma atividade educativa durante a escola ou férias.
-Em grupos, para promover interação social e prática de idiomas.
+
+- Durante o tempo livre em casa.
+  
+- Como uma atividade educativa durante a escola ou férias.
+  
+- Em grupos, para promover interação social e prática de idiomas.
 
 Educadores/Pais:
-Como uma ferramenta educativa em sala de aula ou em casa.
-Como uma opção de entretenimento educativo para crianças.
-Para auxiliar no ensino e prática de português e inglês.
+
+- Como uma ferramenta educativa em sala de aula ou em casa.
+  
+- Como uma opção de entretenimento educativo para crianças.
+  
+- Para auxiliar no ensino e prática de português e inglês.
 
 
 ## 4. Objetivos de aprendizagem
