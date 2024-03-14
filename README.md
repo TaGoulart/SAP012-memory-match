@@ -5,7 +5,7 @@
 - [1. Preâmbulo](#1-preâmbulo)
 - [2. Resumo do projeto](#2-resumo-do-projeto)
 - [3. História do Usuário](#3-historia-do-usuario)
-- [4. Considerações gerais](#4-considerações-gerais)
+- [4. Objetivos de aprendizagem](#4-objetivos-de-aprendizagem)
 - [5. Critérios de aceitação mínimos do projeto](#5-critérios-de-aceitação-mínimos-do-projeto)
 - [6. Hacker edition](#6-hacker-edition)
 - [7. Considerações técnicas](#7-considerações-técnicas)
@@ -62,221 +62,74 @@ Como uma ferramenta educativa em sala de aula ou em casa.
 Como uma opção de entretenimento educativo para crianças.
 Para auxiliar no ensino e prática de português e inglês.
 
-Exemplos de Histórias de Usuário:
-Como jogador, quero associar a palavra "Mars" com a carta correspondente para praticar meu vocabulário em inglês enquanto jogo.
-Como pai, quero que meu filho pratique e aprenda português ao mesmo tempo em que se diverte no jogo.
-Como educador, quero incluir o jogo como parte das atividades bilíngues da minha aula, para promover o aprendizado de idiomas de forma lúdica.
 
-### HTML
+## 4. Objetivos de aprendizagem
 
-- [ ] **Uso de HTML semântico**
+HTML
+Uso de HTML semântico
 
-  <details><summary>Links</summary><p>
+CSS
+Uso de seletores de CSS
 
-  * [HTML semântico](https://curriculum.laboratoria.la/pt/topics/html/html5/semantic-html)
-  * [Semantics in HTML - MDN](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-</p></details>
+Modelo de caixa (box model): borda, margem, preenchimento
 
-### CSS
+Uso de flexbox em CSS
 
-- [ ] **Uso de seletores de CSS**
+Web APIs
+Uso de seletores de DOM
 
-  <details><summary>Links</summary><p>
+Manipulação de eventos de DOM (listeners, propagação, delegação)
 
-  * [Intro a CSS](https://curriculum.laboratoria.la/pt/topics/css/css/intro-css)
-  * [CSS Selectors - MDN](https://developer.mozilla.org/pt_BR/docs/Web/CSS/CSS_Selectors)
-</p></details>
+Manipulação dinâmica de DOM
 
-- [ ] **Modelo de caixa (box model): borda, margem, preenchimento**
+JavaScript
+Diferenciar entre tipos de dados primitivos e não primitivos
 
-  <details><summary>Links</summary><p>
+Arrays (arranjos)
 
-  * [Modelo de Caixa e Display](https://curriculum.laboratoria.la/pt/topics/css/css/boxmodel-and-display)
-  * [The box model - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
-  * [Introduction to the CSS box model - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
-  * [CSS display - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
-  * [display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
-</p></details>
+Objetos (key, value)
 
-- [ ] **Uso de flexbox em CSS**
+Variáveis (declaração, atribuição, escopo)
 
-  <details><summary>Links</summary><p>
+Uso de condicionais (if-else, switch, operador ternário, lógica booleana)
 
-  * [A Complete Guide to Flexbox - CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-  * [Flexbox Froggy](https://flexboxfroggy.com/#pt-br)
-  * [Flexbox - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
-</p></details>
+Uso de laços (while, for, for..of)
 
-### Web APIs
+Funções (params, args, return)
 
-#### DOM (Document Object Model)
+Testes unitários (unit tests)
 
-- [ ] **Uso de seletores de DOM**
+Módulos de ECMAScript (ES modules)
 
-  <details><summary>Links</summary><p>
+Uso de linter (ESLINT)
 
-  * [Modificando o DOM](https://curriculum.laboratoria.la/pt/topics/browser/dom/1-dom-methods-selection)
-  * [Introdução ao DOM - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction)
-  * [Locating DOM elements using selectors - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
-</p></details>
+Uso de identificadores descritivos (Nomenclatura e Semântica)
 
-- [ ] **Manipulação de eventos de DOM (listeners, propagação, delegação)**
+Diferença entre expressões (expressions) e declarações (statements)
 
-  <details><summary>Links</summary><p>
+Controle de Versões (Git e GitHub)
+Git: Instalação e configuração
 
-  * [Introdução a eventos - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Events)
-  * [EventTarget.addEventListener() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener)
-  * [EventTarget.removeEventListener() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/removeEventListener)
-  * [Objeto Event](https://developer.mozilla.org/pt-BR/docs/Web/API/Event)
-</p></details>
+Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)
 
-- [ ] **Manipulação dinâmica de DOM**
+Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)
 
-  <details><summary>Links</summary><p>
+GitHub: Criação de contas e repositórios, configuração de chave SSH
 
-  * [Introdução ao DOM](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
-  * [Node.appendChild() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/appendChild)
-  * [Document.createElement() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createElement)
-  * [Document.createTextNode()](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createTextNode)
-  * [Element.innerHTML - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/innerHTML)
-  * [Node.textContent - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/textContent)
-</p></details>
+GitHub: Implantação com GitHub Pages
 
-### JavaScript
+GitHub: Colaboração pelo Github (branches | forks | pull requests | code review | tags)
 
-- [ ] **Variáveis (declaração, atribuição, escopo)**
+Centrado no usuário
+Desenhar e desenvolver um produto ou serviço colocando as usuárias no centro
 
-  <details><summary>Links</summary><p>
+Design de produto
+Criar protótipos para obter feedback e iterar
 
-  * [Valores, tipos de dados e operadores](https://curriculum.laboratoria.la/pt/topics/javascript/basics/values-variables-and-types)
-  * [Variáveis](https://curriculum.laboratoria.la/pt/topics/javascript/basics/variables)
-</p></details>
+Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
 
-- [ ] **Uso de condicionais (if-else, switch, operador ternário, lógica booleana)**
-
-  <details><summary>Links</summary><p>
-
-  * [Estruturas condicionais e repetitivas](https://curriculum.laboratoria.la/pt/topics/javascript/flow-control/conditionals-and-loops)
-  * [Tomando decisões no seu código — condicionais - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/conditionals)
-</p></details>
-
-- [ ] **Uso de laços (while, for, for..of)**
-
-  <details><summary>Links</summary><p>
-
-  * [Laços (Loops)](https://curriculum.laboratoria.la/pt/topics/javascript/flow-control/loops)
-  * [Laços e iterações - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration)
-</p></details>
-
-- [ ] **Funções (params, args, return)**
-
-  <details><summary>Links</summary><p>
-
-  * [Funções (controle de fluxo)](https://curriculum.laboratoria.la/pt/topics/javascript/flow-control/functions)
-  * [Funções clássicas](https://curriculum.laboratoria.la/pt/topics/javascript/functions/classic)
-  * [Arrow Functions](https://curriculum.laboratoria.la/pt/topics/javascript/functions/arrow)
-  * [Funções — blocos reutilizáveis de código - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Functions)
-</p></details>
-
-- [ ] **Uso de linter (ESLINT)**
-
-- [ ] **Uso de identificadores descritivos (Nomenclatura e Semântica)**
-
-- [ ] **Diferença entre expressões (expressions) e declarações (statements)**
-
-#### Tipos de dados
-
-- [ ] **Diferenciar entre tipos de dados primitivos e não primitivos**
-
-- [ ] **Arrays (arranjos)**
-
-  <details><summary>Links</summary><p>
-
-  * [Arranjos](https://curriculum.laboratoria.la/pt/topics/javascript/arrays)
-  * [Array - MDN](https://developer.mozilla.org//pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/)
-  * [Array.prototype.sort() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
-  * [Array.prototype.forEach() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-  * [Array.prototype.map() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-  * [Array.prototype.filter() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-  * [Array.prototype.reduce() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
-</p></details>
-
-- [ ] **Objetos (key, value)**
-
-  <details><summary>Links</summary><p>
-
-  * [Objetos em JavaScript](https://curriculum.laboratoria.la/pt/topics/javascript/objects/objects)
-</p></details>
-
-#### Testing em Javascript
-
-- [ ] **Testes unitários (unit tests)**
-
-  <details><summary>Links</summary><p>
-
-  * [Introdução ao Jest - Documentação oficial](https://jestjs.io/docs/pt-BR/getting-started)
-</p></details>
-
-#### Módulos
-
-- [ ] **Módulos de ECMAScript (ES modules)**
-
-  <details><summary>Links</summary><p>
-
-  * [import - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import)
-  * [export - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export)
-</p></details>
-
-### Controle de Versões (Git e GitHub)
-
-#### Git
-
-- [ ] **Git: Instalação e configuração**
-
-- [ ] **Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)**
-
-- [ ] **Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)**
-
-#### GitHub
-
-- [ ] **GitHub: Criação de contas e repositórios, configuração de chave SSH**
-
-- [ ] **GitHub: Implantação com GitHub Pages**
-
-  <details><summary>Links</summary><p>
-
-  * [Site oficial do GitHub Pages](https://pages.github.com/)
-</p></details>
-
-- [ ] **GitHub: Colaboração pelo Github (branches | forks | pull requests | code review | tags)**
-
-### Centrado no usuário
-
-- [ ] **Desenhar e desenvolver um produto ou serviço colocando as usuárias no centro**
-
-### Design de produto
-
-- [ ] **Criar protótipos para obter feedback e iterar**
-
-- [ ] **Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)**
-
-### Pesquisa
-
-- [ ] **Planejar e executar testes de usabilidade**
-
-
-#### Protótipo de alta fidelidade
-
-O próximo passo é desenhar a sua Interface de Usuário (UI que vem do inglês -
-_User Interface_). Para isso aprenda a utilizar algm ferramenta de
-desenho visual. Nós te recomendamos o [Figma](https://www.figma.com/), que é
-uma ferramenta que funciona no navegador com um conta gratuita.
-Porém, a escolha é livre e você pode utilizar outros editores gráficos como
-Illustrator, Photoshop, PowerPoint, Keynote, etc.
-
-O desenho deve representar a sua solução _ideal_. Digamos que é o que
-desejaria implementar se tivesse tempo ilimitado para trabalhar. Além disso,
-seu desenho deve seguir os fundamentos de _visual design_.
+Pesquisa
+Planejar e executar testes de usabilidade
 
 #### Testes de usabilidade
 
