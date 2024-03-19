@@ -29,10 +29,10 @@ const App = () => {
 
     shuffleArray(duplicatedSpaceData); // Embaralhar o array de cartas duplicadas
 
-    duplicatedSpaceData.forEach(item => {
+    duplicatedSpaceData.forEach((item) => {
       const memoryCard = createMemoryCard(item);
       memoryGameSection.appendChild(memoryCard);
-    });
+  });
 
     el.appendChild(memoryGameSection);
   };
@@ -45,6 +45,7 @@ const App = () => {
     frontFace.className = 'front-face';
     frontFace.src = item.image;
     frontFace.alt = item.id;
+    //frontFace.id = `image-${index}`
 
     const backFace = document.createElement('img');
     backFace.className = 'back-face';
